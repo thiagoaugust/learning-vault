@@ -16,10 +16,34 @@ Em outras palavras:
 
 ## 🚩 Quando **não usar** o Simple Factory
 
-### 1. **Quando há muitas variações complexas de objetos**
+##### 1. **Quando há muitas variações complexas de objetos**
 
 Se a fábrica começa a ter dezenas de `if/else` ou `switch`, ela vira um **Deus da criação** centralizado e difícil de manter.  
 👉 Nesse caso, pode ser melhor evoluir para **Factory Method** ou **Abstract Factory**.
+
+---
+
+##### 2. **Quando cada objeto tem regras específicas de criação**
+
+Se as instâncias exigem lógica complexa (ex: configurações, dependências, inicializações pesadas), colocar tudo em um único método de fábrica gera um **monólito difícil de estender**.  
+👉 Nesses cenários, cada classe deve ter sua própria responsabilidade de criação.
+
+---
+
+##### 3. **Quando não há variação real**
+
+Se você sempre retorna o mesmo objeto, o Simple Factory é **overengineering**.  
+👉 Exemplo: `AnimalFactory` que só retorna `new Cachorro()`.
+
+---
+
+##### 4. **Quando frameworks de Injeção de Dependência já resolvem o problema**
+
+Em aplicações modernas com Spring, CDI ou Guice, usar uma Simple Factory pode ser redundante, já que o próprio container gerencia a criação de objetos.  
+👉 Aqui a Factory pode até atrapalhar, adicionando **camadas desnecessárias**.
+
+
+## 🛠️ Exemplo em Java
 
 ```java
 // Produto

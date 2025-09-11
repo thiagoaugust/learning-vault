@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-estudos/tecnologia/design patterns/02 - Factory/Simple Factory.md",
+                "file": "04-estudos/tecnologia/design patterns/02 - Factory/Factory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simple Factory"
+              "title": "Factory"
             }
           }
         ]
@@ -193,9 +193,9 @@
   },
   "active": "48e511336b0cc6e3",
   "lastOpenFiles": [
-    "04-estudos/tecnologia/design patterns/02 - Factory/Factory.md",
-    "04-estudos/tecnologia/design patterns/02 - Factory/Simple Factory.md",
     "04-estudos/tecnologia/design patterns/02 - Factory/Factory Method.md",
+    "04-estudos/tecnologia/design patterns/02 - Factory/Simple Factory.md",
+    "04-estudos/tecnologia/design patterns/02 - Factory/Factory.md",
     "04-estudos/tecnologia/design patterns/02 - Factory/Abstract Factory.md",
     "04-estudos/tecnologia/design patterns/01 - Singleton/Singleton - Anti-pattern.md",
     "04-estudos/tecnologia/design patterns/01 - Singleton/Singleton.md",
