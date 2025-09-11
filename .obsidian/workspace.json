@@ -96,7 +96,7 @@
       {
         "id": "e34a0a8ed0842dbf",
         "type": "tabs",
-        "dimension": 30.739673390970225,
+        "dimension": 48.120300751879704,
         "children": [
           {
             "id": "42903ef6c9c9e6c2",
@@ -161,7 +161,7 @@
       {
         "id": "9309c67a9cc0e771",
         "type": "tabs",
-        "dimension": 33.14121037463977,
+        "dimension": 51.879699248120296,
         "children": [
           {
             "id": "a6753eea520862fc",
@@ -176,23 +176,6 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ca1d060144ac2e82",
-        "type": "tabs",
-        "dimension": 36.119116234390006,
-        "children": [
-          {
-            "id": "a4073792cba9a61a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
             }
           }
         ]
@@ -212,7 +195,9 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-custom-frames:Open Google Calendar": false
     }
   },
   "active": "703b6fe2f6ed6f9a",
