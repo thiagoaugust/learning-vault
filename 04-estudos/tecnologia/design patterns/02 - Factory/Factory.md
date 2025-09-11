@@ -72,8 +72,7 @@ public class Main {
     
 - **Factory Method**: delega a decisão de criação para subclasses, permitindo maior flexibilidade e extensibilidade.
     
-- **Abstract Factory**: cria **famílias de objetos relacionados**, garantindo consistência entre eles.
-    
+- **Abstract Factory**: cria **famílias de objetos relacionados**, garantindo consistência entre eles.    
 
 ---
 ## 📌 Pontos de atenção
