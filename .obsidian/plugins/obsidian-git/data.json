@@ -1,8 +1,8 @@
 {
   "commitMessage": "vault changes: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 1,
-  "autoPushInterval": 0,
+  "autoSaveInterval": 60,
+  "autoPushInterval": 1,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "disablePush": false,
@@ -27,7 +27,7 @@
   "submoduleRecurseCheckout": false,
   "gitDir": "",
   "showFileMenu": true,
-  "authorInHistoryView": "hide",
+  "authorInHistoryView": "full",
   "dateInHistoryView": false,
   "diffStyle": "split",
   "lineAuthor": {
