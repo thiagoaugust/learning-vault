@@ -38,3 +38,62 @@ public class Main {
         singleton.showMessage();
     }
 }
+```
+
+## 🔄 Variações
+
+- **Eager Initialization**  
+  A instância é criada no momento em que a classe é carregada.  
+  Mais simples, mas pode desperdiçar recursos se a instância não for usada.  
+
+- **Lazy Initialization**  
+  A instância só é criada quando for necessária.  
+  Economia de recursos, mas precisa de cuidado com **thread-safety**.  
+
+- **Thread-safe Singleton**  
+  Utiliza `synchronized` ou técnicas como **Double-Checked Locking** para garantir segurança em ambientes concorrentes.  
+
+- **Enum Singleton**  
+  A forma mais simples e segura em Java. O `enum` garante instância única e é thread-safe por natureza.  
+
+```java
+public enum EnumSingleton {
+    INSTANCE;
+
+    public void showMessage() {
+        System.out.println("Hello from Enum Singleton!");
+    }
+}
+
+// Uso
+public class Main {
+    public static void main(String[] args) {
+        EnumSingleton.INSTANCE.showMessage();
+    }
+}
+```
+
+## 📌 Pontos de atenção
+
+- Singleton pode aumentar **acoplamento global** se usado de forma excessiva.
+    
+- Dificulta testes unitários, pois a instância global é difícil de isolar/mocar.
+    
+- Deve ser aplicado somente quando realmente faz sentido ter **uma única instância**.
+    
+
+---
+
+## 🔗 Links úteis
+
+- Refactoring.Guru – Singleton
+    
+- Wikipedia – Singleton
+    
+
+---
+
+## 📝 Resumo rápido
+
+O Singleton garante **uma única instância global** de uma classe.  
+É útil para gerenciar recursos compartilhados (ex: configurações, logs, conexões), mas deve ser usado com cautela para evitar mau uso como anti-pattern.
