@@ -1,4 +1,25 @@
-**Limitação**: se a Factory crescer muito, pode acabar virando um “switch gigante” (e aí o Factory Method ou Abstract Factory são alternativas melhores).
+## 📖 Definição – Simple Factory
+
+O **Simple Factory** não é considerado um padrão oficial do GoF, mas é uma abordagem muito usada no dia a dia.  
+Ele consiste em **encapsular a lógica de criação de objetos em uma única classe ou método estático**, de forma que o cliente não precise instanciar os objetos diretamente com `new`.
+
+Em outras palavras:  
+👉 O cliente pede um objeto para a fábrica → a fábrica decide **qual classe instanciar e retornar**.
+
+## ✅ Quando usar
+
+- Quando há **múltiplas variações** de um objeto e não queremos expor `new` em todos os lugares.
+
+- Para **centralizar** a lógica de criação (especialmente quando envolve regras de negócio simples).
+
+- Em casos simples, antes de partir para padrões mais complexos como **Factory Method** ou **Abstract Factory**.
+
+## 🚩 Quando **não usar** o Simple Factory
+
+### 1. **Quando há muitas variações complexas de objetos**
+
+Se a fábrica começa a ter dezenas de `if/else` ou `switch`, ela vira um **Deus da criação** centralizado e difícil de manter.  
+👉 Nesse caso, pode ser melhor evoluir para **Factory Method** ou **Abstract Factory**.
 
 ```java
 // Produto
