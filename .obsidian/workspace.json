@@ -23,10 +23,14 @@
             "id": "703b6fe2f6ed6f9a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "first note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "first note"
             }
           }
         ],
@@ -202,6 +206,7 @@
   },
   "active": "703b6fe2f6ed6f9a",
   "lastOpenFiles": [
+    "first note.md",
     "97 - PESSOAL/Psicologia/TERAPIA/ferramenta-diagrama-dias-ruins.md",
     "README.md",
     "97 - PESSOAL/Psicologia/TERAPIA/ferramenta-diagrama-dias-melhores.md",
@@ -227,7 +232,6 @@
     "01 - TEMPLATES/Sessão template.md",
     "01 - TEMPLATES/Nota de literatura.md",
     "01 - TEMPLATES/Daily note template.md",
-    "01 - TEMPLATES/📝 Template Reunião.md",
     "00 - IMAGENS/Pasted image 20250605113303.png",
     "00 - IMAGENS/Pasted image 20250605112158.png",
     "00 - IMAGENS/Pasted image 20250605100907.png",
