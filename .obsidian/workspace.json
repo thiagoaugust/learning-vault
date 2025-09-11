@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f30226eecb6e59d1",
+        "id": "94c4e2147af47f98",
         "type": "tabs",
         "children": [
           {
-            "id": "0e1525186b3d06c7",
+            "id": "48e511336b0cc6e3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "97 - PESSOAL/Psicologia/TERAPIA/ferramenta-diagrama-dias-ruins.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
-            }
-          },
-          {
-            "id": "703b6fe2f6ed6f9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "first note.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "first note"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,8 +187,20 @@
       "obsidian-custom-frames:Open Google Calendar": false
     }
   },
-  "active": "703b6fe2f6ed6f9a",
+  "active": "f9a6afbf131a34c3",
   "lastOpenFiles": [
+    "01-templates",
+    "03-projetos",
+    "02-livros",
+    "04-estudos/tecnologia",
+    "04-estudos/tecnologia/arquitetura",
+    "04-estudos/tecnologia/linguagens de programação",
+    "04-estudos/tecnologia/banco de dados",
+    "04-estudos/tecnologia/linguagens de programação/java",
+    "02-estudos/programação",
+    "04-estudos",
+    "ideias.md",
+    "00-caixa de entrada",
     "first note.md",
     "97 - PESSOAL/Psicologia/TERAPIA/ferramenta-diagrama-dias-ruins.md",
     "README.md",
@@ -230,8 +225,6 @@
     "03 - Excalidraw/maestro-padronizacao.md",
     "03 - Excalidraw/arquitetura-orquestrador.md",
     "01 - TEMPLATES/Sessão template.md",
-    "01 - TEMPLATES/Nota de literatura.md",
-    "01 - TEMPLATES/Daily note template.md",
     "00 - IMAGENS/Pasted image 20250605113303.png",
     "00 - IMAGENS/Pasted image 20250605112158.png",
     "00 - IMAGENS/Pasted image 20250605100907.png",
@@ -242,17 +235,7 @@
     "00 - IMAGENS/Pasted image 20250603103230.png",
     "00 - IMAGENS/Pasted image 20250603103012.png",
     "00 - IMAGENS/Pasted image 20250603101421.png",
-    "Excalidraw",
-    "00 - ÍNDICE",
-    "14/05",
-    "14",
-    "97 - PESSOAL",
-    "🔄 REVISAR",
-    "Tecnologia",
-    "00 - IMAGENS",
     "Untitled.canvas",
-    "97 - PESSOAL/MINHA EMPRESA",
-    "CONSULTA RÁPIDA",
     "5 - ARQUIVOS/Organização/ORGANIZAÇÃO.canvas",
     "Psicologia/TDAH.canvas"
   ]

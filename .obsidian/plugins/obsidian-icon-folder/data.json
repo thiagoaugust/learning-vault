@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiNotebookTabs",
-      "🎎",
-      "🍝",
-      "🐮",
-      "🍔"
+      "🦆",
+      "🎯",
+      "📚",
+      "📫",
+      "🖌"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,5 +33,10 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "01-templates": "🖌",
+  "00-caixa de entrada": "📫",
+  "02-livros": "📚",
+  "03-projetos": "🎯",
+  "04-estudos": "🦆"
 }

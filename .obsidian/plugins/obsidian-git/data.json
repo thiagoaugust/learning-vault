@@ -1,8 +1,8 @@
 {
-  "commitMessage": "vault changes: {{date}}",
+  "commitMessage": "{{date}} - {{hostname}} - new changes",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 60,
-  "autoPushInterval": 1,
+  "autoSaveInterval": 2,
+  "autoPushInterval": 5,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "disablePush": false,
@@ -55,5 +55,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "vault changes: {{date}}"
+  "autoCommitMessage": "{{date}} - {{hostname}} - new changes"
 }
