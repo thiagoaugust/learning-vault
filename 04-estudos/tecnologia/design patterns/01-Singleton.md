@@ -1,5 +1,11 @@
 # 🟦 Design Pattern: Singleton
 
+## 📝 Resumo rápido
+
+O Singleton garante **uma única instância global** de uma classe.  
+É útil para gerenciar recursos compartilhados (ex: configurações, logs, conexões), mas deve ser usado com cautela para evitar mau uso como anti-pattern.
+
+---
 ## 📖 Definição
 O **Singleton** é um padrão de design criacional que garante que uma classe possua **apenas uma instância** em todo o sistema e fornece um ponto global de acesso a ela.  
 É útil quando precisamos controlar o acesso a um recurso compartilhado 
@@ -72,28 +78,17 @@ public class Main {
     }
 }
 ```
-
 ## 📌 Pontos de atenção
 
-- Singleton pode aumentar **acoplamento global** se usado de forma excessiva.
-    
-- Dificulta testes unitários, pois a instância global é difícil de isolar/mocar.
-    
-- Deve ser aplicado somente quando realmente faz sentido ter **uma única instância**.
-    
+- Singleton pode aumentar **acoplamento global** se usado de forma excessiva.    
+- Dificulta testes unitários, pois a instância global é difícil de isolar/mockar.    
+- Deve ser aplicado somente quando realmente faz sentido ter **uma única instância**.   
 
 ---
-
 ## 🔗 Links úteis
-
-- Refactoring.Guru – Singleton
-    
-- Wikipedia – Singleton
-    
-
+- [Refactoring.Guru – Singleton](https://refactoring.guru/pt-br/design-patterns/singleton) → Explicação detalhada com exemplos em várias linguagens.  
+- [Wikipedia – Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern) → Visão geral, história e variações do padrão.  
+- [Baeldung – Singleton in Java](https://www.baeldung.com/java-singleton) → Exemplos práticos de implementação em Java, incluindo Enum e Double-Checked Locking.  
+- [GeeksforGeeks – Singleton Design Pattern](https://www.geeksforgeeks.org/singleton-design-pattern/) → Abordagem simplificada com prós e contras.  
+- [DZone – When to Avoid the Singleton Pattern](https://dzone.com/articles/why-singleton-pattern-is-bad) → Discussão crítica sobre quando **não** usar o padrão.
 ---
-
-## 📝 Resumo rápido
-
-O Singleton garante **uma única instância global** de uma classe.  
-É útil para gerenciar recursos compartilhados (ex: configurações, logs, conexões), mas deve ser usado com cautela para evitar mau uso como anti-pattern.
