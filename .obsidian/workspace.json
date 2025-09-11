@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-estudos/tecnologia/design patterns/01-Singleton.md",
+                "file": "04-estudos/tecnologia/design patterns/02 - Factory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Singleton"
+              "title": "02 - Factory"
             }
           }
         ]
@@ -191,10 +191,10 @@
       "obsidian-custom-frames:Open Google Calendar": false
     }
   },
-  "active": "f9a6afbf131a34c3",
+  "active": "48e511336b0cc6e3",
   "lastOpenFiles": [
+    "04-estudos/tecnologia/design patterns/01 - Singleton.md",
     "04-estudos/tecnologia/design patterns/02 - Factory.md",
-    "04-estudos/tecnologia/design patterns/01-Singleton.md",
     "04-estudos/tecnologia/design patterns/Untitled",
     "ideias.md",
     "04-estudos/tecnologia/design patterns",

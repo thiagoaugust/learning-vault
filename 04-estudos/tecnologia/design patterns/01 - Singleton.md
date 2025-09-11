@@ -1,5 +1,3 @@
-# 🟦 Design Pattern: Singleton
-
 ## 📝 Resumo rápido
 
 O Singleton garante **uma única instância global** de uma classe.  
