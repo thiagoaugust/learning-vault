@@ -186,9 +186,7 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-custom-frames:Open Google Calendar": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "48e511336b0cc6e3",
