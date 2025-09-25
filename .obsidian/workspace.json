@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-estudos/tecnologia/design patterns/02 - Factory/Factory Method.md",
+                "file": "03-projetos/Google WCI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Factory Method"
+              "title": "Google WCI"
             }
           }
         ]
@@ -191,8 +191,9 @@
   },
   "active": "48e511336b0cc6e3",
   "lastOpenFiles": [
-    "04-estudos/tecnologia/design patterns/02 - Factory/Factory.md",
     "04-estudos/tecnologia/design patterns/02 - Factory/Factory Method.md",
+    "03-projetos/Google WCI.md",
+    "04-estudos/tecnologia/design patterns/02 - Factory/Factory.md",
     "04-estudos/tecnologia/design patterns/02 - Factory/Simple Factory.md",
     "04-estudos/tecnologia/design patterns/02 - Factory/Abstract Factory.md",
     "04-estudos/tecnologia/design patterns/01 - Singleton/Singleton - Anti-pattern.md",
@@ -226,7 +227,6 @@
     "🔧 Procedimentos/posh-git.md",
     "Spring Data Jpa.md",
     "97 - PESSOAL/HITSS/Reunião Ongoing.md",
-    "Meta Developers.md",
     "00 - IMAGENS/Pasted image 20250605113303.png",
     "00 - IMAGENS/Pasted image 20250605112158.png",
     "00 - IMAGENS/Pasted image 20250605100907.png",
