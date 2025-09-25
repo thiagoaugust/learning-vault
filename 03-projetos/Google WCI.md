@@ -1,4 +1,6 @@
 - arrumei os testes da história de splash / relampago
 - revisei o script da landing page
 - fiz os testes chamando nossa aplicação
-- adicionei o banco 
+- adicionei o banco de dados
+
+### Hoje
